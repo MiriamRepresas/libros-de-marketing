@@ -1,0 +1,152 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    background-color: white;
+}
+
+.links{
+    text-decoration: none;
+}
+
+.links-primary{
+    color: black;
+}
+
+a:hover{
+    color: purple;
+}
+
+/* Navegador */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    list-style: none;
+    padding: 0%;
+    margin: 2%; 
+}
+
+/* Seccion uno */
+h1{
+    color:purple;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 2%;
+}
+
+h4{
+    display: flex;
+    justify-content:space-around;
+}
+
+/* Seccion dos */
+.seccion-dos {
+    padding:3%
+}
+
+h5{
+    color:purple
+}
+
+/* Formulario de suscripción a newsletter */
+.formulario {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3%;
+}
+
+/* Contacto */
+.contacto {
+    content: center;
+}
+
+/* Recomendados */
+.destacados {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3%;
+}
+div[class*="mas-leidos-"]{
+    width: 300px;
+    height: 300px;
+}
+.mas-leidos-box-1{
+    background-color: purple;
+    text-align: left;
+    color: white;
+    padding: 1%;
+}
+.mas-leidos-box-2{
+    background-color: purple;
+    text-align: left;
+    color: white;
+    padding: 1%;
+}
+.mas-leidos-box-3{
+    background-color: purple;
+    text-align: left;
+    color: white;
+    padding: 1%;
+}
+
+/* Tabla */
+.table {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.banner-05 {
+    padding:1%;
+}
+
+.footer-01 {
+    padding:1%;
+}
+
+body {
+	font-size:80%;
+}
+
+/* Porcentaje base, solo en el body */
+p {
+	font-size:0.9em;
+}
+h1 {
+	font-size:2em;
+}
+h2 {
+	font-size:1.4em;
+}
+#pie {
+	font-size:1.2em;
+}
+.epigrafes {
+	font-size:1.1em;
+}
+
+/* Fin de zona comun a todas las resoluciones */
+@media screen and (min-width:800px) {
+	body {
+		font-size:100%;
+		/* ampliamos los textos si mide más de 800px */
+	}
+}
+
+/* fin de la zona para mas de 800px de ancho de pantalla */
+@media screen and (min-width:1200px) {
+	body {
+		font-size:120%;
+		/* ampliamos más aún los textos si mide más de 1200px */
+	}
+}
+
+/* fin de la zona para más de 1200px de ancho de pantalla */
